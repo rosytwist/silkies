@@ -16,7 +16,7 @@ let charadex = {};
 /* ==================================================================== */
 charadex.site = {
   title: "Silkies",
-  url: "www.silkiescs.com",
+  url: "https://rosytwist.github.io/silkies/",
   description: `A semi-closed Fabric Equine species.`
 }
 
