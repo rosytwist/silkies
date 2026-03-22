@@ -30,7 +30,6 @@ charadex.sheet = {
 
   pages: {
     masterlist:    "masterlist",
-    NPCs:          "NPCs",
     masterlistLog: "masterlist log",
     inventory:     "inventory",
     inventoryLog:  "inventory log",
