@@ -349,52 +349,6 @@ charadex.page.masterlist = {
   prevNext: {
     toggle: true,
   },
-  /* Masterlist
-/* --------------------------------------------------------------- */
-charadex.page.NPCs = {
-
-  sheetPage: charadex.sheet.pages.NPCs,
-  sitePage: 'NPCs',
-  dexSelector: 'charadex',
-  profileProperty: 'design',
-
-  sort: {
-    toggle: true,
-    key: "id",
-    order: "desc",
-    parameters: []
-  },
-
-  pagination: {
-    toggle: true,
-    bottomToggle: true,
-    amount: 12,
-  },
-
-  filters: {
-    toggle: true,
-    parameters: {
-      'Design Type': charadex.sheet.options.designTypes,
-      'Status': charadex.sheet.options.statuses,
-      'Rarity': charadex.sheet.options.rarity,
-    }
-  },
-
-  fauxFolder: {
-    toggle: true,
-    folderProperty: 'Species',
-    parameters: charadex.sheet.options.species,
-  },
-
-  search: {
-    toggle: true,
-    filterToggle: true,
-    parameters: ['All', 'ID', 'Design', 'Owner', 'Designer', 'Artist', 'Traits']
-  },
-
-  prevNext: {
-    toggle: true,
-  },
 
   relatedData: {
 
