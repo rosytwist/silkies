@@ -1,3 +1,168 @@
+<!--you can change the width of the entire profile by changing 600 to whatever-->
+<div style="max-width: 600px; margin:auto;">
+    
+	<!--main card; change the url in brackets to change the background image (don't forget to update the credit at the bottom too)-->
+	<div class="card border-0 rounded-0 p-2" style="background-image: url(https://file.toyhou.se/images/10312547_TIP775toCnawFHH.png); background-size:cover; ">
+	    
+	    <!--top (money, image, shop item icons)-->
+		<div class="row no-gutters">
+		    
+		    <!--top left (money, image)-->
+			<div class="col-sm-6 p-2">
+			    
+			    <!--money-->
+				<div class="card p-2 rounded-0" style="width: 150px; border:4px solid;">
+				    <p>
+				        <!--coins icon-->
+				        <i class="fas fa-coins" style="color:#DAA520"></i>
+				        <!--amount-->
+				        <span class="float-right">10526</span>
+				    </p>
+				</div>
+				
+				<!--image-->
+				<div>
+					<img src="https://via.placeholder.com/250x250.png" style="top:20px; left:5px; height:250px;">
+				</div>
+			</div>
+			<!--top left end-->
+			
+			<!--shop item icons-->
+			<div class="col-sm-6 p-2">
+				<div class="card rounded-0 p-2" style="height: 290px; overflow-y:auto; border:4px solid;">
+				    <div class="nav nav-pills row no-gutters">
+				        <!--change img src to change the image. images should all have similar proportions (e.g. if one is super tall and one is square it'll look weird).
+				        add as many of these as you want, as long as each has a unique href. if you add enough, the box will scroll-->
+				        <a class="btn p-2 nav-link col-4" data-toggle="tab" href="#one">
+				            <img src="https://via.placeholder.com/50.png">
+				        </a>
+				        
+				        <a class="btn p-2 nav-link col-4" data-toggle="tab" href="#two">
+				            <img src="https://via.placeholder.com/50.png">
+				        </a>
+				        
+				        <a class="btn p-2 nav-link col-4" data-toggle="tab" href="#three">
+				            <img src="https://via.placeholder.com/50.png">
+				        </a>
+				        
+				        <a class="btn p-2 nav-link col-4" data-toggle="tab" href="#four">
+				            <img src="https://via.placeholder.com/50.png">
+				        </a>
+				        
+				        <a class="btn p-2 nav-link col-4" data-toggle="tab" href="#five">
+				            <img src="https://via.placeholder.com/50.png">
+				        </a>
+				        
+				        <a class="btn p-2 nav-link col-4" data-toggle="tab" href="#six">
+				            <img src="https://via.placeholder.com/50.png">
+				        </a>
+				        
+        			</div>
+				</div>
+			</div>
+			<!--shop item icons end-->
+		</div>
+		<!--top end-->
+		
+		<!--bottom (textbox, item descriptions)-->
+		<div class="p-2">
+			<div class="card p-3 rounded-0" style="border:4px solid; height: 120px; overflow-y:auto;">
+			    <div class="tab-content">
+			        <!--text shown before clicking on any items-->
+					<div class="tab-pane fade in active show" id="zero">
+					    <p>
+					        <!--name-->
+					        <span class="text-primary"><b>Suspicious Shopkeep:</b></span> 
+					        <!--dialogue-->
+					        What're you buyin', stranger?
+					    </p>   
+				    </div>
+				    
+				    <!--item one-->
+				    <div class="tab-pane fade" id="one">
+				        <!--image-->
+				        <img src="https://via.placeholder.com/50.png" class="pr-2 float-left">
+				        <p>
+				            <!--name-->
+				            <span><b>item 1 name</b></span> 
+				            <!--price-->
+				            <span class="float-right"><i class="fas fa-coins" style="color:#DAA520"></i> 300</span>
+				            <br>
+				            <!--description-->
+				            <i>item description. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. </i>
+				        </p>
+				    </div>
+				    
+				    <!--item two. same instructions as above-->
+				    <div class="tab-pane fade" id="two">
+				        <img src="https://via.placeholder.com/50.png" class="pr-2 float-left">
+				        <p>
+				            <span><b>item 2 name</b></span> 
+				            <span class="float-right"><i class="fas fa-coins" style="color:#DAA520"></i> 300</span>
+				            <br>
+				            <i>item description. if these get too long then the text box will scroll. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </i>
+				        </p>
+				    </div>
+				    
+				    <!--three-->
+				    <div class="tab-pane fade" id="three">
+				        <img src="https://via.placeholder.com/50.png" class="pr-2 float-left">
+				        <p>
+				            <span><b>item 3 name</b></span> 
+				            <span class="float-right"><i class="fas fa-coins" style="color:#DAA520"></i> 300</span>
+				            <br>
+				            <i>item description. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. </i>
+				        </p>
+				    </div>
+				    
+				    <!--four-->
+				    <div class="tab-pane fade" id="four">
+				        <img src="https://via.placeholder.com/50.png" class="pr-2 float-left">
+				        <p>
+				            <span><b>item 4 name</b></span> 
+				            <span class="float-right"><i class="fas fa-coins" style="color:#DAA520"></i> 300</span>
+				            <br>
+				            <i>item description. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. </i>
+				        </p>
+				    </div>
+				    
+				    <!--five-->
+				    <div class="tab-pane fade" id="five">
+				        <img src="https://via.placeholder.com/50.png" class="pr-2 float-left">
+				        <p>
+				            <span><b>item 5 name</b></span> 
+				            <span class="float-right"><i class="fas fa-coins" style="color:#DAA520"></i> 300</span>
+				            <br>
+				            <i>item description. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. </i>
+				        </p>
+				    </div>
+				    
+				    <!--six-->
+				    <div class="tab-pane fade" id="six">
+				        <img src="https://via.placeholder.com/50.png" class="pr-2 float-left">
+				        <p>
+				            <span><b>item 6 name</b></span> 
+				            <span class="float-right"><i class="fas fa-coins" style="color:#DAA520"></i> 300</span>
+				            <br>
+				            <i>item description. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. </i>
+				        </p>
+				    </div>
+				    
+				    <!--to add more items just paste another item block here and change the href to match with an icon in the section above-->
+				</div>
+			</div>
+		</div>
+		<!--bottom end-->
+	</div>
+	<!--credit; you can move but do not remove-->
+	<div class="pull-right px-2">
+		<a class="far fa-image tooltipster" title="background image by CivilEngideer" href="https://toyhou.se/2978476.free-use-backgrounds"></a>
+		•
+		<a class="far fa-code tooltipster" title="code by octopi" href="https://toyhou.se/octopi"></a>
+	</div>
+</div>
+
+<!-- ------------------------------------------------------------------- -->
 <!DOCTYPE html>
 <html lang="en">
 
