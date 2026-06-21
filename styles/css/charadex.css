@@ -15,7 +15,7 @@ body {
   /* ============================================================= */
   /* Primary Color
   ================================================================ */
-  --cd-primary-color: #4e718b;
+  --cd-primary-color: #52728b;
   --cd-primary-text-color: #b9e1f3;
 
   /* ============================================================= */
@@ -32,7 +32,7 @@ body {
   --cd-faded-background-color: #f8f8f8;
 
   /* Background Extras */
-  --cd-body-background-image: url();
+  --cd-body-background-image: url(https://f2.toyhou.se/file/f2-toyhou-se/images/122113958_894pdKqxA5ZnwYS.png);
 
   /* ============================================================= */
   /* Text
